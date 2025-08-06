@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temperature Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+<header>
+  <img src="Gold_Luxury_Initial_Circle_Logo__2_-removebg-preview.png"class="logo">
+     <h1>Temperature Converter</h1>
+</header>
+  <div class="container">
+    <!-- Input Section -->
+    <div class="converter">
+      <label for="temperature-input">Enter Temperature</label>
+      <input type="text" id="temperature-input" placeholder="" />
+      
+      <label for="unit-select">Select Input Unit</label>
+      <select id="unit-select">
+        <option value="celsius">Celsius</option>
+        <option value="fahrenheit">Fahrenheit</option>
+        <option value="kelvin">Kelvin</option>
+      </select>
+
+      <button id="convert-btn">Convert</button>
+    </div>
+
+    <!-- Result Display -->
+    <div class="result">
+      <h2>Result:</h2>
+      <p id="result-display"></p>
+    </div>
+  </div>
+  <footer>
+        <p>© 2024 Rediet Mamo T°Converter. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
